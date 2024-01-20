@@ -103,7 +103,7 @@ f.Position = [0 50 500 500];
 subplot(3,1,1)
 plot(t,iO); 
 grid on;
-title('Prąd Odbiornika');
+title('Output current');
 ylabel('i_o(t) [A]')
 xlabel('t [s]')
 
@@ -111,7 +111,7 @@ xlabel('t [s]')
 subplot(3,1,2)
 plot(t,uR);
 grid on;
-title('Napięcie Odbiornika');
+title('Output Voltage');
 ylabel('u_R(t) [V]')
 xlabel('t [s]')
 
@@ -119,7 +119,7 @@ xlabel('t [s]')
 subplot(3,1,3)
 plot(t,tranzystor*5);
 grid on;
-title('Sygnał Sterujący Źródłem');
+title('Source Control Signal');
 ylabel('z(t) [V]')
 xlabel('t [s]')
 axis([0 T -11 11]);
